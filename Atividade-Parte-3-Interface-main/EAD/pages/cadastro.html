@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastro</title>
+        <script src="/js/cadastro.js" type='module' defer></script>
+        <style>
+            body {
+                margin: 0;
+                font-family:Arial;
+                background-color: #ffffff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 120vh;
+            }
+            form {
+                background-color: #1d839f;
+                padding: 60px;
+                border-radius: 10px;
+                box-shadow: 0 4 10px #171414;
+                width: 375px;
+                text-align: center;
+            }
+            h1 {
+                color: #E1E1E1;
+                margin-bottom: 20px;
+            }
+            input, button {
+                width: 100%;
+                padding: 6px;
+                margin-bottom: 12px;
+                border-radius: 5px;
+                border: 1px solid #000000;
+                font-size: 15px;
+            }
+            button {
+                background-color: #112e6c;
+                color: #E1E1E1;
+                bottom: none;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color:#0d072f;
+            }
+        </style>
+    </head>
+    <body>
+        </style>
+    </head>
+    <body>
+        <form id="cadastro-funcionario">
+            <h1>Tela de Cadastro</h1>
+            <input type="text" name="nome" id="nome" placeholder="Nome Completo"></p>
+            <input type="email" name="email" id="email" placeholder="Email"></p>
+            <input type="password" name="senha" id="senha" placeholder="Senha"></p>
+            <input type="text" name="cep" id="cep" placeholder="CEP"></p>
+            <input type="text" name="endereco" id="endereco" placeholder="Endereço"></p>
+            <input type="text" name="numero" id="numero" placeholder="Número"></p>
+            <input type="text" name="bairro" id="bairro" placeholder="Bairro"></p>
+            <input type="text" name="cidade" id="cidade" placeholder="Cidade"></p>
+            <input type="text" name="estado" id="estado" placeholder="Estado"></p>
+            <button type="submit" id="cadastrar">Cadastrar</button>
+            <a href="index.html" class="cadastro-link">Já tem uma conta? Faça login</a>
+        </form>
+    </body>
+</html>

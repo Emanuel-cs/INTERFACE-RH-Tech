@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastro de Cargos</title>
+        <script src="/js/cargos.js" type='module' defer></script>
+        <style>
+            body {
+                margin: 0;
+                font-family:Arial;
+                background-color: #ffffff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: auto;
+            }
+            form {
+                background-color: #1d839f;
+                padding: 60px;
+                border-radius: 10px;
+                box-shadow: 0 4 10px #171414;
+                width: 375px;
+                text-align: center;
+            }
+            h1 {
+                color: #E1E1E1;
+                margin-bottom: 20px;
+            }
+            input, button {
+                width: 100%;
+                padding: 6px;
+                margin-bottom: 12px;
+                border-radius: 5px;
+                border: 1px solid #000000;
+                font-size: 15px;
+            }
+            button {
+                background-color: #112e6c;
+                color: #E1E1E1;
+                bottom: none;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color:#0d072f;
+            }
+            th {
+                background-color: #112e6c;
+                color: #fff;
+                padding: 8px;
+                text-align: left;
+                border: #000000 1px solid;
+            }
+        </style>
+    </head>
+    <body>
+        <Div>
+        <form id="cadastro-cargo">
+            <h1>Tela de Cadastro de Cargos</h1>
+            <input type="text" name="nome" id="nome" placeholder="Nome do Cargo"></p>
+            <input type="text" name="descricao" id="descricao" placeholder="Descrição do Cargo"></p>
+            <button type="submit">Cadastrar Cargo</button>
+            <a href="">Hello World!</a>
+        </form>
+        <h2 style="text-align: center; color: #fff; background: #112e6c;">Lista de Cargos</h2>
+        <table id="tabela-cargos" style="width: 100%; margin-top: 20px; border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+    </Div>
+    </body>
+</html>
